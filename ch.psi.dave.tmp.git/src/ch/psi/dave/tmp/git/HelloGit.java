@@ -6,7 +6,5 @@ public class HelloGit {
 		System.out.println("Hello Git!");
 		System.out.println("Goodbye Git!");
 		//Recipient recipient = new Recipient("world");
-		
 	}
-
 }
