@@ -15,8 +15,6 @@ public class HelloGit {
 		
 		Language language = new Language("French");
 
-    Language language = new Language("French");
-
 		speaker.sayGoodbye();
 	}
 
