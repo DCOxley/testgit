@@ -11,4 +11,8 @@ public class Salutation {
 	public Salutation(String call) {
 		this.salutationCall = call;
 	}
+
+	public String getSalutationCall() {
+		return salutationCall;
+	}
 }
