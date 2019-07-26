@@ -2,17 +2,28 @@ package ch.psi.dave.tmp.git;
 
 public class Salutation {
 
-	private final String salutationCall;
+	private final static String DEFAULT_CALL = "Hello";
+	private String formalCall;
+	private String casualCall;	
+
+	public String getFormalCall() {
+		return formalCall;
+	}
+
+	public String getCasualCall() {
+		return casualCall;
+	}
 
 	public Salutation() {
-		salutationCall = "Hello";
+		new Salutation(DEFAULT_CALL, DEFAULT_CALL);
 	}
 	
-	public Salutation(String call) {
-		this.salutationCall = call;
+	public Salutation(String formalCall) {
+		new Salutation(formalCall, formalCall);
 	}
-
-	public String getSalutationCall() {
-		return salutationCall;
+	
+	public Salutation(String formalCall, String casualCall) {
+		this.formalCall = formalCall;
+		this.casualCall = casualCall;
 	}
 }
