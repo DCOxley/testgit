@@ -12,6 +12,8 @@ public class HelloGit {
 
 		Day day = new Day();
 		System.out.println(NICE_DAY + day.getDayName());
+		
+		Language language = new Language("French");
 
 		speaker.sayGoodbye();
 	}
