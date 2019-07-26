@@ -8,5 +8,4 @@ public class HelloGit {
 		System.out.println(day.getDayName());
 		System.out.println("Goodbye Git!");
 	}
-
 }
